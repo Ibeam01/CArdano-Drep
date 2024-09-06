@@ -1,0 +1,95 @@
+{
+  "@context": {
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "doNotList": false,
+    "givenName": "Rbaker2024",
+    "motivations": "Assist with building the best blockchain in the world. Represent the innovators and doers. I am a project co-founder (COO), experienced leader with a vast amount of time working with different people around the world. ",
+    "objectives": "Boldly represent the community and up hold the community's core values.",
+    "paymentAddress": "addr_test1qz5zz7ugjjnfur0jfwa498kutrk557mc8w7eekm5dzju9r0sj008m0yn0hwynpcnw6kszhetmdet7san2lml5ku4fnksdnks07",
+    "qualifications": "Cardano project co-founder, NFT project owner/CEO, experienced senior international leader, vast experience with building and leading organizations and people, creator and craftsman.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "Digital Gold Ecosystem",
+        "uri": "https://www.digitalgoldecosystem.com/"
+      },
+      {
+        "@type": "Link",
+        "label": "LinkedIn",
+        "uri": "https://www.linkedin.com/in/reginald-baker-20937a1a"
+      },
+      {
+        "@type": "Link",
+        "label": "BLACK CONNOISSEUR CONSULTING LLC",
+        "uri": "https://blackconnoisseur.com/"
+      },
+      {
+        "@type": "Identity",
+        "label": "Digital Gold Team page",
+        "uri": "https://www.digitalgoldecosystem.com/team-2"
+      },
+      {
+        "@type": "Identity",
+        "label": "Black Connoisseur LLC page ",
+        "uri": "https://blackconnoisseur.com/"
+      },
+      {
+        "@type": "Identity",
+        "label": "LinkedIn",
+        "uri": "https://www.linkedin.com/in/reginald-baker-20937a1a"
+      }
+    ]
+  }
+}
